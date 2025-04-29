@@ -34,4 +34,10 @@ blockquote {
 :root {
     --sl-content-width: 50rem;
     --sl-text-5xl: 3.5rem;
+    --microtip-transition-duration: 0.1s;
+    --microtip-transition-delay: 0.1s;
+    --microtip-transition-easing: ease-out;
+    --microtip-font-size: 15px;
+    --microtip-font-weight: bold;
+    --microtip-text-transform: none;
 }
