@@ -43,15 +43,97 @@ The SRXD editor will also not allow you to input said characters in the title fi
 If your song uses any of those characters in its' title, it is possible to insert them back through [**manual SRTB editing**]().
 </Aside>
 
-### Note Types
+## Note Types
 
-| Tap note | Match note | Spin left | Spin right |
+### Taps, matches and spins
+
+{/* | Tap note | Match note | Spin left | Spin right |
 | :--- | :--- | :--- | :--- |
-| ![Tap note](@images/charting/tap-note.png) | ![Match note](@images/charting/match-note.png) | ![Spin left note note](@images/charting/spin-left-note.png) | ![Spin right note](@images/charting/spin-right-note.png) |
-| Requires a timed wheel input by all playstyles and for the wheel to be lined up | Requires only the wheel to be lined up | Requires a quick flick to the left | Requires a quick flick to the left |
+| <div class="max-w-[100px]">![Tap note](@images/charting/tap-note.png)</div> | <div class="max-w-[100px]">![Match note](@images/charting/match-note.png)</div> | <div class="max-w-[100px]">![Spin left note note](@images/charting/spin-left-note.png)</div> | <div class="max-w-[100px]">![Spin right note](@images/charting/spin-right-note.png)</div> |
+| Requires a timed wheel input by all playstyles and for the wheel to be lined up | Requires only the wheel to be lined up | Requires a quick flick to the left | Requires a quick flick to the left | */}
 
-### Note Usage
+| Tap note | |
+| :--- | :--- |
+| <div class="w-[125px] md:w-[200px]">![Tap note](@images/charting/tap-note.png)</div> | Requires a timed tap/grab wheel input by all playstyles and the wheel to be aligned with the proper color of the note. |
 
+| Match note | |
+| :--- | :--- |
+| <div class="w-[125px] md:w-[200px]">![Match note](@images/charting/match-note.png)</div> | Requires the wheel to be aligned with the proper color of the note. |
+
+{/* V Replace with single screenshot that has both spins V */}
+
+| Spins | |
+| :--- | :--- |
+| <div class="w-[125px] md:w-[200px]">![Left spin](@images/charting/spin-left-note.png)</div> | Requires a quick flick, or press of the associated keybind, in the indicated direction within the hit window. |
+
+Taps, matches and spins are the basis of Spin Rhythm XD. Introduced straight away from the Easy difficulty, they represent the main elements that define the pacing, movement and
+emphasis of the chart. 
+
+Taps usually follow the emphasized instrument/lead (or vocals), and their placement can really show the difference between a good and a great chart.
+
+Matches serve as movement enablers between the taps, leading to a more unique feel of pitch among <span aria-label="Vertical-Scrolling Rhythm Game" data-microtip-position="top" role="tooltip">VSRGs</span>, as well as the role of a "supporting" note to 
+represent underlying instruments/samples, like hi-hats, in a song. 
+
+Spins notes dictate the pacing of surrounding patterns, but also serve as a "resetter" note that helps the player find themselves back in a neutral position when
+initiating movement in a new pattern.
+
+Perhaps the best explanation of what a spin is meant to achieve comes from none other than one of the SRXD developers themselves, [Daverwob](https://youtu.be/__wk0vUHYU8&t=403).
+
+As the difficulty rating and type increases, so does their frequency and usage, as well as the rate of color swapping introduced between them all, creating an
+intense yet rich with flow sequence of actions.
+
+### Scratches and Sliders
+
+| Scratch zone | |
+| :--- | :--- |
+| <div class="w-[125px] md:w-[200px]">![Scratch zone](@images/charting/scratch-note.png)</div> | Requires to maintain a minimum amount of movements of the wheel performed over its' duration. |
+
+| Slider/Hold note | |
+| :--- | :--- |
+| <div class="w-[125px] md:w-[200px]">![Slider/Hold note](@images/charting/slider-note.png)</div> | Requires an initial timed tap/grab wheel input by all playstyles and to roughly follow the path with the currently active wedge. It is possible to re-grab a slider by tapping again or correcting the wedge position back in place. |
+
+Scratch zones and Sliders, introduced in Normal difficulty, are powerful and versatile note types.
+
+Both are great for representing sustained sounds, and their usage can be determined by the volume or intensity of the sound they're charted to.
+
+Sliders, in particular, are possibly the most versatile note type when it comes to song representation. The combination of different shapes and [extra tricks](../advanced-charting) one can perform
+to better represent a particular sound or sample, down to the individual bass wobble or vocal vibrato, make it visually very powerful.
+
+{/* When starting out though, it is better to stick to playing around with the simpler shapes the editor provides to maintain good game feel. */}
+
+### Releases and Beats
+
+| Slider release/Lift-off | |
+| :--- | :--- |
+| <div class="w-[125px] md:w-[200px]">![Slider/Hold note](@images/charting/slider-release-note.png)</div> | Requires to release the tap/grab wheel input at the end of a slider on all playstyles. It uses a different, more lenient, timing window. |
+
+| Beat | |
+| :--- | :--- |
+| <div class="w-[125px] md:w-[200px]">![Slider/Hold note](@images/charting/beat-note.png)</div> | An independent note type. Requires a separate timed input on all playstyles with a dedicated keybind. |
+
+Slider releases (also widely referred to as "Lift-offs" by the community) and Beats, introduced in the Hard difficulty and used more extensively in Expert onwards, are the last
+unique note types introduced in the difficulty progression.
+
+Both can be pretty versatile as to which kind of sounds they're associated to. While Slider releases and Beats are usually associated with sounds with a sharp ending and percussion respectively,
+it is possible to mix up their usage in fun ways to really enrich some patterns.
+
+For example, Beats can work nicely during a piano solo section when paired with a Tap to simulate the feel of playing a chord on the actual instrument.
+
+### Beatholds and Beathold Releases
+
+| Beathold | |
+| :--- | :--- |
+| <div class="w-[125px] md:w-[200px]">![Slider/Hold note](@images/charting/beathold-note.png)</div> | A sustained version equivalent of the Beat note. Requires to hold down the associated keybind for Beats on all playstyles for its' duration. |
+
+| Beathold Release | |
+| :--- | :--- |
+| <div class="w-[125px] md:w-[200px]">![Slider/Hold note](@images/charting/beathold-release-note.png)</div> | An equivalent to Slider Releases/Lift-offs for Beatholds. Requires to let go of the associated keybind on all playstyles at the right time, with a similarly more lenient timing window. |
+
+Beatholds and Beathold Releases, introduced in the XD difficulty, are the true last note types introduced in the difficulty progression.
+
+They serve a similar function and purpose to Beats and Slider Releases, combined into "one" note, providing similar versatility in terms of layering on top of other wheel notes.
+
+## Note Usage
 
 ### Charting Notation
 The track is split into lanes, which are conventionally numbered 0-6, from left to right. 0 and 6 are the very edges, but 90% of notes will be on lanes 1 and 5. These two lanes are **opposite** to each other. 

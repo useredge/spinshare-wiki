@@ -16,7 +16,7 @@ thead th {
 }
   
 tbody td {
-    @apply border border-neutral-900 p-2 !important;
+    @apply border border-neutral-900 p-2 align-middle !important;
 }
 
 tbody tr:nth-child(even) {

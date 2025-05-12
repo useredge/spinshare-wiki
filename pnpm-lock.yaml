@@ -20,6 +20,9 @@ importers:
       astro:
         specifier: ^5.7.0
         version: 5.7.0(jiti@1.21.6)(rollup@4.40.0)(typescript@5.6.2)(yaml@2.5.1)
+      microtip:
+        specifier: ^0.2.2
+        version: 0.2.2
       sharp:
         specifier: ^0.32.6
         version: 0.32.6
@@ -1559,6 +1562,9 @@ packages:
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
+
+  microtip@0.2.2:
+    resolution: {integrity: sha512-oah38eH5vSHVFP6yXjbKWOYt92mav++0j3zh844h1vhOscqEg7Rf4agDEIwUTFCcAPPdlhYUQMe6eZfHgD+4oQ==}
 
   mimic-response@3.1.0:
     resolution: {integrity: sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==}
@@ -4444,6 +4450,8 @@ snapshots:
     dependencies:
       braces: 3.0.3
       picomatch: 2.3.1
+
+  microtip@0.2.2: {}
 
   mimic-response@3.1.0: {}
 
